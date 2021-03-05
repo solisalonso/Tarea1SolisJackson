@@ -20,3 +20,10 @@ def test4(ch):
 @pytest.mark.parametrize('ch',[('/')])
 def test5(ch):
     assert check_char(ch)=='0'
+
+"""
+para ejecutar pytest se debe escribir:
+Para ejecutar los 5 tests juntos: pytest pruebas.py 
+Para ejecutar cada test por separado: pytest pruebas.py -k (numero del test) -v
+Por ejemplo para el primero: pytest pruebas.py -k 1 -v
+"""
