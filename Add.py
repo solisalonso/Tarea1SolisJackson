@@ -1,2 +1,4 @@
-def suma(x, y):
-    return x + y
+import pytest
+def suma(x,y):
+
+    return x+y
