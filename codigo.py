@@ -18,6 +18,3 @@ def caps_switch(ch):
             return (ch.swapcase())  # Swapcase pasa de min a mayus o viceversa.
     else:
         print("Valor erroneo, ingresar solo letras")
-
-
-        
